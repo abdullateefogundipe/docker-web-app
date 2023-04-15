@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Azubi Africa: Sign in</title>
+  <title>Team Five(5): Sign in</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -36,7 +36,7 @@
       </div>
       <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
         <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
-          <h1><a href="#" rel="dofollow">Azubi Africa</a></h1>
+          <h1><a href="#" rel="dofollow">Team Five(5)</a></h1>
         </div>
         <div class="formbg-outer">
           <div class="formbg">
@@ -64,7 +64,7 @@
                         if ($message) {
                           echo "<p style='border-left: 3px solid red; padding-left:5px'><b><i>$message</i></b></p>";
                           if($message == "Login successful!"){
-                              header("location:guestlist.php");
+                              header("location:guestlist_1.php");
                           }
                         }
                       ?>
@@ -72,9 +72,9 @@
             </div>
           </div>
           <div class="footer-link padding-top--24">
-            <span>We hope you enjoy the project?</span>
+            <span>Always believe in yourself!</span>
             <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
-              <span><a href="#">© azubiafrica</a></span>
+              <span><a href="#">© Team(5)</a></span>
               <span><a href="https://azubiafrica.org" target="_blank" >Contact</a></span>
               <span><a href="https://azubiafrica.org" target="_blank">Privacy & terms</a></span>
             </div>
