@@ -9,41 +9,57 @@
 This project is about a web application development with docker and aws services
 * Version 1 - Static files on web server
 * Version 2 - Verification of static form file with php 
-* Version 3 - Integration with DynamoDB service on aws
+* Version 3 - Integration with DynamoDB service on aws using php + sdk
 
-What to note down:
-* Did you work with anyone, note that
-* What was the problem you were trying to tackle & how did you go about finding your solution
-* any challenges you faced and how did you solve them
+Coloborators
+* Seth Ofori – Amanfo – Project Manager
+  ![image](https://user-images.githubusercontent.com/112909838/232318920-3cceae3f-c547-4550-9380-749fbab61cf1.png)
+
+* This project sort to solve the challenges with sofware running on different architectures by employing decorized applications.
+* With the help of internet. We were able to research enough on most technologies using decomentations and AI assistances like chatGPT 
+* Challenges:
+* 
 
 ### Collaborations
 This is a hand-on cloud engineering project delivered by the azubi africa cloud team in 2023. After 6 months of AWS cloud training and front-end development, we got a chance to work on some realife cloud projects. 
 I was able to work with:
- 1. William Mukoyani [@their_linkedin](https://www.linkedin.com/in/william-j-mukoyani)
- 2. Esther Awudu [@their_linkedin](https://www.linkedin.com/in/esther-awudu-33690320b/)
- 3. Thelma Laryea [@their_linkedin](https://www.linkedin.com/in/thelma-laryea-73a49b1b4/)
- 4. Sampson Boamah [@their_linkedin](https://www.linkedin.com/in/sampson-boamah-b3629a114/)
+1. Paul Timothy Wekesa Wafula [paul.timothy@azubiafrica.org]
+2. Aaron Odeny [aaron.odeny@azubiafrica.org]
+3. Ogunleye Emmanuel [ogunleye.emmanuel@azubiafrica.org]
+7. Kelvin Michuki Mwangi 
 ##
 ### Project Overview
 ```sh
    Todo and technologies
-1. Use AWS s3 (cloud storage service)
-2. Upload your files to AWS s3
-3. Launch a sample webapp
+1. Create front-end - VScode
+2. Test server = xammp server locally + docker desktop
+3. Use AWS Container Services
+4. Push images to docker hub
+4. Use AWS DynamoDB, Fargate,  
+3. Launch a sample webapp locally and online
 
 ```
 
 ##
 ```sh
-   1. Creating an s3 bucket through the AWS console
+   Task 1: Manual Dynamo Table
 ```
-You need to have a an AWS account, you can get a freetire account which basically means you get a free 1 year to use some AWS resources. In our case, we have that setup and we will be using the s3 service.
-* Go to the s3 service
-* click on "create bucket" :  a bucket is where we will put our files.
-* click on "objects" : obejects are files that can go into the bucket.
+You need to have a an AWS account, you can get a freetire account which basically means you get a free 1 year to use some AWS resources. In our case, we have that setup and we will be using the dynamoDB service
+
+* Go to your AWS Console and navigate to the DynamoDB service. 
+* Click on the "Create table" button. 
+* Enter "GuestBook" as the table name. 
+* Enter "Email" as the primary key and make sure to select "String" as the data type. 
+* Create a Country and Name Fields. You may need to research on (global and local indexes)
+* Click on the "Create" button to create the table. 
+* Once the table is created, click on the "Items" tab to add some sample data to the table.  
+* Click on the "Create item" button and enter the sample data for the "Name", "Email", and "Country" fields. 
+* Populate this with your team members info.
+
+
 ##
 ```sh
-   2. Setup Website hosting for S3
+   Task 2: Link Dynamo to webpage
 ```
 Webhosting is what allows o a webfile to be served to the internet. AWS offers a free option to host a static website (static is something that doesnt use data from a database).
 * Go to your s3 bucket
