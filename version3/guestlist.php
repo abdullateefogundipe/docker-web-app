@@ -25,8 +25,8 @@ use Aws\DynamoDb\DynamoDbClient;
 use Aws\Credentials\Credentials;
 
 // Sample credentials
-$accessKeyId = 'AKIARRVGHQHR2XGZNTGJ';
-$secretAccessKey = 'Jz4Ugtw4xio2tSaVBYAIRXpVku13DWN4DSSSxD+L';
+$accessKeyId = 'access key here';
+$secretAccessKey = 'secret access key here';
 $region = 'us-east-1'; // Replace with the appropriate AWS region
 
 // Create a new DynamoDB client
