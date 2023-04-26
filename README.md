@@ -118,7 +118,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Amigo51/docker-web-app.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,9 +128,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@my_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@my_twitter](https://twitter.com/@20pesewes) - seth.ofori-amanfo@azubiafrica.org
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: https://github.com/Amigo51/docker-web-app.git]https://github.com/Amigo51/docker-web-app.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +145,8 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
+* [GitHub Pages](https://github.com/lawrencemuema/Cloud_project02)
+* [Terraform Helpful links](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table)
+* [Terraform Helpful links](https://cloudkatha.com/how-to-create-dynamodb-table-using-terraform/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
