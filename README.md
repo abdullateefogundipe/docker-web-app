@@ -57,11 +57,11 @@ You need to have a an AWS account, you can get a freetire account which basicall
 ```sh
    Task 2: Link Dynamo to webpage
 ```
-We will be working with  a new page Guestlist.php we will use php as it can process the requests in the background. Pick the template for this new file 
-<a href ="[https://github.com/lawrencemuema/Cloud_project02]"
+We will be working with  a new page Guestlist.php we will use php as it can process the requests in the background. Pick the template for this new file:
+[https://github.com/lawrencemuema/Cloud_project02]
 
 **There are some packages needed for us to run the connection to dynamo***
-#Working with AWS SDK for php
+# Working with AWS SDK for php
 
 1. Install Composer (https://getcomposer.org/), a package manager for PHP.  
 2. In your project directory, run the “composer require aws/aws-sdk-php". This will install the needed packages. 
