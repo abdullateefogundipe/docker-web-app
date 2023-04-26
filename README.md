@@ -11,10 +11,6 @@ This project is about a web application development with docker and aws services
 * Version 2 - Verification of static form file with php 
 * Version 3 - Integration with DynamoDB service on aws using php + sdk
 
-Coloborators
-* Seth Ofori – Amanfo – Project Manager
-  ![image](https://user-images.githubusercontent.com/112909838/232318920-3cceae3f-c547-4550-9380-749fbab61cf1.png)
-
 * This project sort to solve the challenges with sofware running on different architectures by employing decorized applications.
 * With the help of internet. We were able to research enough on most technologies using decomentations and AI assistances like chatGPT 
 * Challenges:
@@ -26,7 +22,7 @@ I was able to work with:
 1. Paul Timothy Wekesa Wafula [paul.timothy@azubiafrica.org]
 2. Aaron Odeny [aaron.odeny@azubiafrica.org]
 3. Ogunleye Emmanuel [ogunleye.emmanuel@azubiafrica.org]
-7. Kelvin Michuki Mwangi 
+7. Kelvin Michuki Mwangi [kelvin.michuki@azubiafrica.org]
 ##
 ### Project Overview
 ```sh
@@ -40,7 +36,7 @@ I was able to work with:
 
 ```
 
-##
+## Version 3 
 ```sh
    Task 1: Manual Dynamo Table
 ```
@@ -61,33 +57,54 @@ You need to have a an AWS account, you can get a freetire account which basicall
 ```sh
    Task 2: Link Dynamo to webpage
 ```
-Webhosting is what allows o a webfile to be served to the internet. AWS offers a free option to host a static website (static is something that doesnt use data from a database).
-* Go to your s3 bucket
-* Go to the properties tab
-* Scroll down to Static Web Hosting and enable this.
-##
+We will be working with  a new page Guestlist.php we will use php as it can process the requests in the background. Pick the template for this new file 
+<a href ="[https://github.com/lawrencemuema/Cloud_project02]"
+
+**There are some packages needed for us to run the connection to dynamo***
+#Working with AWS SDK for php
+
+1. Install Composer (https://getcomposer.org/), a package manager for PHP.  
+2. In your project directory, run the “composer require aws/aws-sdk-php". This will install the needed packages. 
+  Git error: Install git from here, https://git-scm.com/download 
+3. Once the AWS SDK for PHP is installed, you can use it in your PHP code by including the Composer-generated autoloader: 
+require 'vendor/autoload.php'; 
+4. You are now able to call on dynamo and perform the desired functions. 
+
 ```sh
-   3. Launch your website on s3
+   Task 3: Using Terraform
 ```
-We have a bucket and its now hosting ready, all we need to do is add our files and we can access the site.
-* Go to your s3 bucket and upload "objects". these are your webfiles from your computer
-* Go to the s3 bucket properties tab
-* Scroll down to Static Web Hosting and you should now see a url.
-*click on the url and access your site.
+To reduce redundancy and complexities we will use terraform to create our dynamo dB table.
+Read: 
+** A terraform file is a configuration file that defines the infrastructure and resources to be created by Terraform.**
 
+#Using Terraform to create dynamo dB
+1. Install Terraform on your local machine following the installation guide for your operating system: 
+Install terraform
+<!-- https://developer.hashicorp.com/terraform/downloads -->
+2. Set up your AWS credentials on your local machine. You can do this by configuring the AWS Command Line Interface (CLI) using the aws configure command. 
+3. Create a new directory/folder on your local machine where you will store your Terraform configuration files.  
+4. Create a new file in your Terraform directory called anything.tf. or any name of your choice
+5. Create a new file in your Terraform directory called anything.tf. 
+6. To create a dynamo dB using a terraform file, you need to: 
+ * Define the attributes and settings of the dynamo dB table, such as name, hash key, range key, read capacity, write capacity, etc. 
+ * Dummy Data can be added in the same file, different file. But make sure you add the data using terraform.
+7. Dummy Data can be added in the same file, different file. But make sure you add the data using terraform.
+8. Run terraform plan to preview the changes that will be made
+9. Run terraform apply to create the dynamo dB table 
 
+```sh
+   Task 4: Deployment
+```
+We will work on packaging our application
+#Docker Hub Deployment
 
-## Showcase a simple Architecture diagram
-<!-- setup a link to your images folder -->
-<a href="[https://github.com/lawrencemuema/Cloud_project02](https://github.com/lawrencemuema/Cloud_project02/blob/main/images/fargate_arch.png)">
-    <img src="images/fargate_arch.png" alt="Logo" width="auto" height="150">
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
+1. Create a Dockerfile in the "version3" folder with the following contents: Dockerfiles are what tell docker how it should build your image (environments)  
+2. Build the Docker image using the following command:  
+ ** docker build -t your-dockerhub-username/docker-web-app:3.0**
+ ** This will build a Docker image with the name "your-dockerhub-username/docker-web-app" and the tag "3.0". **
+3. Push the Docker image to DockerHub using the following command:  
+ ** docker push your-dockerhub-username/docker-web-app:3**
+ 
 <!-- GETTING STARTED -->
 ## Getting Started
 
