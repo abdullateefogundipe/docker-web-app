@@ -12,8 +12,8 @@ This project is a page that displays data from a DynamoDB table
 * Phase 3 - Using terraform for DynamoDB creation
 * Phase 4 - Deployment of project on dockerhub
 
-* This project forms part of a requirement for a completion of a 6 month cloud professional program with Azubi Africa
-* With the help of the world wide webs rich resources, me and my team were able to research enough on most technologies using decumentations and AI assistances like chatGPT to tackle chanllenges 
+* This project forms part of a requirement for the completion of a 6 month cloud professional program with Azubi Africa
+* With the help of the world wide webs rich resources, me and my team were able to research enough on most technologies using documentations and AI assistances like chatGPT to tackle chanllenges 
 * Few challenges:
 1 Linkage of DynamoDB to webpage
 2 Setup of composer and php sdk
@@ -29,17 +29,14 @@ I was able to work with:
 ##
 ### Project Overview
 ```sh
-   Todo and technologies
-1. Create front-end - VScode
-2. Test server = xammp server locally + docker desktop
-3. Use AWS Container Services
-4. Push images to docker hub
-4. Use AWS DynamoDB, Fargate,  
-3. Launch a sample webapp locally and online
-
+   Todo and resources
+1. Phase 1 - Dynamo Db: A fully managed NoSQL database service that supports ke-value and document data structures
+2. Phase 2 - AWS SDKs + PhP: Sofware development kits that provide libraries tools for various tools for programming access to AWS servies. We used SDK for php to link our website to dynamo
+3. Phase 3 - Using terraform as a code tool to build dynamoDb platform with initial data
+4. Dockerize application and push to dockerHub
 ```
 
-## Version 3 
+## 
 ```sh
    Task 1: Manual Dynamo Table
 ```
