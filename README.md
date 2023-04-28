@@ -6,18 +6,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is about a web application development with docker and aws services
-* Version 1 - Static files on web server
-* Version 2 - Verification of static form file with php 
-* Version 3 - Integration with DynamoDB service on aws using php + sdk
+This project is a page that displays data from a DynamoDB table
+* Phase 1 - Manual Dynamo Table
+* Phase 2 - Linkage of Dynamo to Webpage 
+* Phase 3 - Using terraform for DynamoDB creation
+* Phase 4 - Deployment of project on dockerhub
 
-* This project sort to solve the challenges with sofware running on different architectures by employing decorized applications.
-* With the help of internet. We were able to research enough on most technologies using decomentations and AI assistances like chatGPT 
-* Challenges:
-* 
+* This project forms part of a requirement for a completion of a 6 month cloud professional program with Azubi Africa
+* With the help of the world wide webs rich resources, me and my team were able to research enough on most technologies using decumentations and AI assistances like chatGPT to tackle chanllenges 
+* Few challenges:
+1 Linkage of DynamoDB to webpage
+2 Setup of composer and php sdk
+3 Using terraform to upload sample items in database table
 
 ### Collaborations
-This is a hand-on cloud engineering project delivered by the azubi africa cloud team in 2023. After 6 months of AWS cloud training and front-end development, we got a chance to work on some realife cloud projects. 
+Team members
 I was able to work with:
 1. Paul Timothy Wekesa Wafula [paul.timothy@azubiafrica.org]
 2. Aaron Odeny [aaron.odeny@azubiafrica.org]
