@@ -25,6 +25,7 @@ I was able to work with:
 1. Paul Timothy Wekesa Wafula [paul.timothy@azubiafrica.org]
 2. Aaron Odeny [aaron.odeny@azubiafrica.org]
 3. Ogunleye Emmanuel [ogunleye.emmanuel@azubiafrica.org]
+4. Seth Ofori-Amanfo [seth.ofori-amanfo@azubiafrica.org]
 7. Kelvin Michuki Mwangi [kelvin.michuki@azubiafrica.org]
 ##
 ### Project Overview
@@ -118,7 +119,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Amigo51/docker-web-app.git
+   git clone https://github.com/abdullateefogundipe/docker-web-app.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,9 +129,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Seth Ofori-Amanfo - [@my_twitter](https://twitter.com/@20pesewes) - seth.ofori-amanfo@azubiafrica.org
+Abdullateef Ogundipe - [@my_twitter](https://twitter.com/@limitlessA0) - abdullateef.ogundipe@azubiafrica.org
 
-Project Link: https://github.com/Amigo51/docker-web-app.git]https://github.com/Amigo51/docker-web-app.git)
+Project Link: https://github.com/abdullateefogundipe/docker-web-app.git]https://github.com/abdullateefogundipe/docker-web-app.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
